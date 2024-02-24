@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.container h1 {
+  font-size: 35px;
+  margin: 30px 0;
+}
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.con-num {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+.con-ty {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.number {
+  padding: 10px 5px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(138, 138, 138);
+}
+.menu {
+  width: 400px;
+  padding: 10px 5px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid rgb(138, 138, 138);
+}
+.Buttons {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+#result {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px 5px;
+  border-radius: 6px;
+  border: 1px solid rgb(138, 138, 138);
+  outline: none;
+}
+#convert {
+  width: 100%;
+  background-color: rgb(5, 141, 71);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+#convert:hover {
+  background-color: rgb(12, 86, 48);
+}
+#clear {
+  width: 100%;
+  background-color: rgb(231, 67, 38);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+#clear:hover {
+  background-color: rgb(119, 50, 38);
+}
