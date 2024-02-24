@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!-- start inputs section -->
+    <div class="inputSection">
+      <div class="content">
+        <div class="inputs">
+          <input placeholder="Titel" id="inputTitel" type="text" />
+          <textarea
+            placeholder="Description"
+            id="textarea"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button id="addTask">Add Task</button>
+      </div>
+    </div>
+    <!-- end inputs section -->
+    <!-- start outputs section -->
+    <div class="outputSection">
+      <div id="tasks" class="tasks">
+        <h1 class="TasksName">Tasks</h1>
+        <div class="descripTask">
+          <h3>Titel</h3>
+          <p class="desc">Description</p>
+          <p>Edit</p>
+          <p>Delete</p>
+        </div>
+      </div>
+    </div>
+    <!-- end outputs section -->
+    <script src="app.js"></script>
+  </body>
+</html>

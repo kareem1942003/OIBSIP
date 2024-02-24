@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  padding: 20px 150px;
+  margin: 0 auto;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  body {
+    padding: 20px 70px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputs {
+    width: 100%;
+  }
+}
+.inputSection {
+  width: 39%;
+}
+.inputSection .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.inputSection .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+textarea {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: rgb(45, 146, 229);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+  height: 30px;
+}
+button:hover {
+  background-color: rgb(25, 92, 151);
+}
+.TasksName {
+  margin-bottom: 20px;
+}
+@media (max-width: 991px) {
+  .inputSection {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.outputSection {
+  width: 60%;
+}
+.outputSection .tasks {
+  width: 450px;
+  width: 100%;
+}
+
+.outputSection .tasks .descripTask {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.descarea {
+  width: 40%;
+  text-align: left;
+}
+
+.outputSection .tasks .task {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.outputSection .tasks .task input {
+  width: 40%;
+}
+@media (max-width: 991px) {
+  .outputSection {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .outputSection input {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    padding: 40px 20px;
+    margin: 0 auto;
+  }
+}
